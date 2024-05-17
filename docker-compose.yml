@@ -4,7 +4,7 @@ services:
   xsl-tester:
     image: franvdm/xsl-transform
     ports:
-      - "9000:9000"
+      - "9002:9000"
     tty: true
 
   db:
